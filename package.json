@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Backend/server.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "dev": "nodemon Backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minhaz Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
